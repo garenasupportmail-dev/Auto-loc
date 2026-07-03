@@ -28,11 +28,11 @@ def run_flask():
 # Token is read from an environment variable ONLY.
 # Set BOT_TOKEN in Render -> your service -> Environment -> Add Environment Variable.
 # Never hardcode a real token in this file or paste it in chat.
-BOT_TOKEN = os.environ.get('8499551746:AAHCgQJZDMvjmmh-IgvzmJ_jg9M0_6WKWOI')
+BOT_TOKEN = os.environ.get('8794678050:AAEXUoC4M8uxfPxHBwIUw4PO7jdAYjQa1O8')
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN environment variable is not set.")
 
-OWNER_ID = 8471373583
+OWNER_ID = 7977493987
 CHANNEL_USERNAME = "@KALYUGESCROWSERVICE"
 
 ADMINS_FILE = "admins.json"
